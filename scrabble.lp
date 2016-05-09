@@ -37,8 +37,10 @@
 	wordl(W, _, _, _, _, _, L6),
 	not letter(6, Y, L6).
 
+%%%%%%%%%%% tautology %%%%%%%%%%%%%%%%%%
 % only one word per row
-:- wordY(W1, Y), wordY(W2, Y), W1 != W2.
+%:- wordY(W1, Y), wordY(W2, Y), W1 != W2.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % no repeat words in the square
 :- wordY(W, Y1), wordY(W, Y2), Y1 != Y2.
@@ -71,8 +73,10 @@
 	wordl(W, _, _, _, _, _, L6),
 	not letter(X, 6, L6).
 
+%%%%%%%%%%% tautology %%%%%%%%%%%%%%%%%%
 % only one word per column
-:- wordX(W1, X), wordX(W2, X), W1 != W2.
+%:- wordX(W1, X), wordX(W2, X), W1 != W2.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % no repeat words in the square
 :- wordX(W, X1), wordX(W, X2), X1 != X2.
