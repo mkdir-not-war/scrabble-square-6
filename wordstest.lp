@@ -4,8 +4,8 @@ word(averse).
 wordl(averse, a, v, e, r, s, e).
 word(recite).
 wordl(recite, r, e, c, i, t, e).
-word(redite).
-wordl(redite, r, e, d, i, t, e).
+word(resite).
+wordl(resite, r, e, s, i, t, e).
 word(tribal).
 wordl(tribal, t, r, i, b, a, l).
 word(estate).
