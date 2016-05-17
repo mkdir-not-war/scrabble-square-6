@@ -1,4 +1,5 @@
 % File scrabble-roland.lp
+% credit to Roland Kaminski
 
 % words have six letters, ordered
 % word(W).
