@@ -28,6 +28,10 @@ CPU Time     : 0.040s
 $
 
 
-To run on all words (my computer doesn't have enough memory to do this as is):
+To run on all words (my computer doesn't have enough memory to do this):
 $ python words.py
-$ clingo letters.lp words6.lp scrabble.lp 0
+$ clingo -t8 0 letters.lp words6.lp scrabble.lp > out
+
+"-t8" is a flag in the clasp part of clingo that specifies to run using 8 threads.
+"0" specifies that we want all the solutions.
+The .lp files need not be in any particular order.
