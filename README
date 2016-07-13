@@ -1,3 +1,5 @@
+Much-appreciated help from Dr. Roland Kaminski and Dr. Vladimir Lifschitz
+
 # scrabble-square-6
 Given a text file of all 6-letter scrabble words, 
 finds every square of 36 letters such that every 
@@ -35,5 +37,3 @@ $ clingo -t8 0 letters.lp words6.lp scrabble.lp > out
 "-t8" is a flag in the clasp part of clingo that specifies to run using 8 threads.
 "0" specifies that we want all the solutions.
 The .lp files need not be in any particular order.
-
-Much-appreciated help from Dr. Roland Kaminski and Dr. Vladimir Lifschitz
