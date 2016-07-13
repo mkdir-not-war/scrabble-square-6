@@ -1,5 +1,5 @@
 % File scrabble.lp
-% thanks to Dr. Roland Kaminski and Dr. Vladimir Lifschitz
+% Thanks to Dr. Roland Kaminski and Dr. Vladimir Lifschitz
 
 % words have six letters, ordered
 % word(W).
