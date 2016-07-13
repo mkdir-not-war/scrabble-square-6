@@ -37,7 +37,7 @@
 	wordl(W, _, _, _, _, _, L6),
 	not letter(6, Y, L6).
 
-%%%%%%%%%%% tautology %%%%%%%%%%%%%%%%%%
+%%%%%%%%%%% tautology %%%%%%%%%%%%%%%%%%%
 % only one word per row
 %:- wordY(W1, Y), wordY(W2, Y), W1 != W2.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -73,7 +73,7 @@
 	wordl(W, _, _, _, _, _, L6),
 	not letter(X, 6, L6).
 
-%%%%%%%%%%% tautology %%%%%%%%%%%%%%%%%%
+%%%%%%%%%%% tautology %%%%%%%%%%%%%%%%%%%
 % only one word per column
 %:- wordX(W1, X), wordX(W2, X), W1 != W2.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
